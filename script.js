@@ -35,6 +35,10 @@ function hidePlayerInfo() {
     }
 }
 
+function goToPerfil() {
+    window.location.href = '../perfil/index.html'; 
+}
+
 function loadGame(game) {
     const gameContainer = document.getElementById('game-container');
     gameContainer.innerHTML = '';
