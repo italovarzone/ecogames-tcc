@@ -35,6 +35,10 @@ function hidePlayerInfo() {
     }
 }
 
+function goToPerfil() {
+    window.location.href = '../perfil/index.html'; 
+}
+
 function loadGame(game) {
     const gameContainer = document.getElementById('game-container');
     gameContainer.innerHTML = '';
@@ -67,28 +71,28 @@ function loadGame(game) {
 function loadCacaPalavras() {
     const gameContainer = document.getElementById('game-container');
     gameContainer.innerHTML = `
-        <iframe id="game-iframe" src="cacapalavras/index.html" style="width: 100%; height: 100%; border: none;"></iframe>
+        <iframe id="game-iframe" src="../../jogos/cacapalavras/index.html" style="width: 100%; height: 100%; border: none;"></iframe>
     `;
 }
 
 function loadHangame() {
     const gameContainer = document.getElementById('game-container');
     gameContainer.innerHTML = `
-        <iframe id="game-iframe" src="forca/index.html" style="width: 100%; height: 100%; border: none;"></iframe>
+        <iframe id="game-iframe" src="../../jogos/forca/index.html" style="width: 100%; height: 100%; border: none;"></iframe>
     `;
 }
 
 function loadEcopuzzle() {
     const gameContainer = document.getElementById('game-container');
     gameContainer.innerHTML = `
-        <iframe id="game-iframe" src="/index.html" style="width: 100%; height: 100%; border: none;"></iframe>
+        <iframe id="game-iframe" src="../../jogos/ecopuzzle/index.html" style="width: 100%; height: 100%; border: none;"></iframe>
     `;
 }
 
 function loadQuizODS() {
     const gameContainer = document.getElementById('game-container');
     gameContainer.innerHTML = `
-        <iframe id="game-iframe" src="quiz/index.html" style="width: 100%; height: 100%; border: none;"></iframe>
+        <iframe id="game-iframe" src="../../jogos/quiz/index.html" style="width: 100%; height: 100%; border: none;"></iframe>
     `;
 }
 

@@ -9,14 +9,14 @@
 <body>
   <div class="container">
     <button onclick="toggleSidebar()" class="toggle-sidebar-btn">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </button>
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
     <aside class="sidebar">
       <h2 class="user-greeting">Olá, Ítalo!</h2>
       <ul>
-        <li onclick="">Perfil</li>
+        <li onclick="goToPerfil()">Perfil</li>
         <li onclick="">Ranking</li>
         <li onclick="">Avaliar a Plataforma</li>
       </ul>
@@ -27,7 +27,7 @@
         <li onclick="loadGame('hangame')">Hangame</li>
       </ul>
       <footer class="footer">
-        <p>v1.0.0 - Todos os direitos reservados &copy; 2024</p>
+        <p>v1.0.0-beta1 - Todos os direitos reservados &copy; 2024</p>
       </footer>
     </aside>
     <main class="content">
@@ -36,8 +36,7 @@
         <h2>Bem-vindo ao Ecogames</h2>
       </div>
     </main>
-</div>
-  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
